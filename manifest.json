@@ -1,0 +1,12 @@
+{
+	"app": "test-app-java",
+    "info": {
+        "name": "Test App",
+        "author": "Team Stratum",
+        "version": "1.0.0"
+    },
+    "launch": {
+        "command": "java -classpath 'target/classes;stratumkit-java.jar' TestAppMain $$APPID$$",
+        "postinstall": "echo"
+    }
+}
